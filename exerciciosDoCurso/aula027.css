@@ -1,0 +1,112 @@
+@charset "UTF-8";
+:root{
+    --cor1:rgb(164, 2, 2);
+    --cor2: rgb(7, 7, 60);
+    --cor3:rgb(236, 228, 174);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+button{
+    width: 150px;
+    height: 40px;
+    background-color: var(--cor2);
+    color: white;
+    border-radius: 20px;
+    border: 4px solid rgba(5, 81, 181, 0.329);
+    cursor: pointer;
+
+}
+button:active{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(8, 113, 218);
+    color: white;
+    border-radius: 20px;
+    border: 4px solid rgba(5, 29, 60, 0.412);
+    cursor: pointer;
+
+}
+.curso{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    border: 4px solid rgba(0, 123, 255, 0.489);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#btnAddNovoCursoDepois{
+    margin-top: 10px;
+}
+input{
+    cursor: pointer;
+}
+.selecionado{
+    background-color: crimson !important;
+    color: aliceblue !important;
+    border-color: rgb(255, 42, 0) !important;
+}
+
+.c1{
+    background-color: var(--cor3);
+    color: rgb(17, 18, 26);
+
+}
+
+.c2{
+    background-color: rgb(17, 18, 26);
+    color: var(--cor3);
+}
+
+.caixa{
+    border:  4px double rgba(14, 11, 11, 0.825);
+    background-color: rgba(222, 175, 3, 0.375);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    height: 500px;
+    width: 300px;
+}
+
+.btn_lixeira{
+    width: 25px;
+    cursor: pointer;
+
+}
+
+.caixaFuncionalidades{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.comando{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#caixaNovoCurso input{
+    margin: 10px;
+    padding: 5px;
+}
