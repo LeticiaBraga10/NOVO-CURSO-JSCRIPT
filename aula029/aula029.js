@@ -21,7 +21,7 @@ btnPesquisar.addEventListener('click',(evt)=>{
         }
     });
     if (ret === undefined){
-        resultado.innerHTML = `O valor ${valorPesquisado} é compatível com o array.`
+        resultado.innerHTML = `O valor ${valorPesquisado} é incompatível com o array.`
     } 
 })
 
